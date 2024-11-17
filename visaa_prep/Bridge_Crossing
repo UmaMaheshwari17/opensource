@@ -1,0 +1,7 @@
+x,y,z=list(map(int,input().split()))
+c=z-y
+if c>=0:
+    m_count=c//x
+else:
+    m_count=0
+print(m_count)
